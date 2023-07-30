@@ -1,0 +1,217 @@
+.chatPage{
+    display:flex;
+    background-color:#0c021a;
+    color:white;
+    font-family:sans-serif;
+}
+.contactBox{
+    width:23%;
+    height:100vh;
+    overflow:auto;
+}
+
+.addContectBox{
+    height:5vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:row;
+    gap:5px;
+    padding:8vh 0vh 3vh 2vh;
+}
+.addContact{
+  width:60%;
+  padding: 2vh 4vh 2vh 4vh;
+  margin-left:3vh;
+  background:#000000;
+  color:#8f9093;
+  border-radius:10px;
+}
+.addContectButton{
+    width:10%; 
+    position:relative;
+    color:#8f9093;
+    right:6vh;
+}
+.allContactBox{
+   padding:0 10px;
+}
+.allContact{
+    width: auto;
+    height: 62px;
+    border-radius: 2vh;
+    font-size: 20px;
+    padding: 1vh 5vh;
+    display: flex;
+    align-items: center;
+    background: #31323b2e;
+    margin: 20px;
+}
+.active {
+    background-color:#311f4eb5;
+    width: auto;
+    height: 62px;
+    border-radius: 2vh;
+    font-size: 20px;
+    padding: 1vh 5vh;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+.contact{
+    width:26vh;
+}
+.online{
+    font-size:12px;
+}
+.chatBox{
+    width: 55%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    margin: 11vh 5vh 0vh 0vh;
+    border-radius: 3px;
+    background-color: #000000;
+}
+.chatNavBox{
+   height:10vh;
+   display:flex;
+   align-items:center;
+}
+.chatNav{
+   font-size:27px;
+   padding:0vh 5vh;
+   border-radius: 10px;
+}
+.chatSection{
+    height:62vh;
+    padding:0vh 1vh 0vh 4vh;  
+}
+.defaultChat{
+    font-size:14px;
+    text-align:center;
+}
+.chatTextBar{
+    height:17vh;
+    display:flex;
+    align-items:center;
+}
+.sendInput{
+    width: 80%;
+    margin-left: 12vh;
+    margin-right: 3vh;
+    padding: 15px 45px;
+    background-color: #15171c;
+    color: white;
+    border-radius: 15px;
+}
+.sendButton{
+    padding:13px;
+    background-color:#f8d200;
+    margin-right:3.5vh;
+    border-radius:5vh;
+}
+.rightBox{
+    display:flex;
+    justify-content: flex-end;
+}
+.leftBox{
+    display:flex;
+    justify-content: flex-start;
+}
+.right{
+    background-color:#f8d200;
+    color:black;
+    width:auto;
+    padding: 6px 15px 6px 15px;
+    margin: 10px 30px  10px 10px;
+    border-radius:15px 15px 0px 12px;
+    
+}
+.left{
+    background-color:#b684f5;
+    width:auto;
+    padding:6px 15px 6px 15px;
+    margin:10px;
+    border-radius:0px 15px 15px 12px;
+    position:relative;
+}
+.unsend{
+    height:3vh;
+    background-color: #2a2c35;
+    color: white;
+    padding: 5px 5px 0px 5px;
+    margin-top:20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.chatTimeBox{
+    display:flex;
+    justify-content:flex-end;
+   
+}
+.chatTime{
+    font-size:10px;
+}
+.sideBox{
+    width:18.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column; 
+    background-color: black;
+    height:100vh;
+    overflow:hidden;
+}
+.about{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:28vh;
+    height:12vh;
+    border-radius:2vh;
+    background-color:#15171c;
+    margin-top:4vh;
+}
+.Logo{
+    padding:1.95vh;
+    border: 3px solid #f2fc89;
+    border-radius:8px;
+    margin-right:1.8vh;
+    margin-left:-3vh;
+}
+.name{  
+    font-size:18px;
+    font-family:Verdana, sans-serif;
+}
+.number{
+    color:#b6b3ecbf;
+    padding:3px 0 0 0;
+    font-size:13px;
+}
+.snip{
+    display:flex;
+    justify-content:start;
+    width:30vh;
+    height:40vh;
+    border-radius:2vh;
+    background-color:#a36de6;
+    margin-top:34vh;
+    flex-direction: column; 
+}
+.snipBio{
+    width: 22vh;
+    height: 10vh;
+    padding: 0px 5vh 0vh 5vh;
+    margin-top: 21vh;
+    font-size: 16.5px;
+    font-family: Verdana, sans-serif;
+}
+.logout{
+    width:20vh;
+    height:5vh;
+    padding:0;
+    margin:0vh;
+    background-color:black;
+    margin-left:5vh;
+}

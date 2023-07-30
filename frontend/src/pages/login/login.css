@@ -1,0 +1,70 @@
+.loginPage{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    background:black;
+    color:white;
+    
+}
+.login{
+    height:7vh;
+}
+.inputBox{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.registerview{
+    width:65vh;
+    height:70vh;
+    background:#00201f;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+}
+form{
+    width:45vh;
+    height:50vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding:10vh;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background:#f7fff7;
+    color:#00201f;
+}
+input{
+    background-color:#fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 1.3vh 9vh 1.3vh 3vh;
+    margin:0.7vh; 
+}
+button{
+    padding: 9px 90px;
+    margin:2vh;
+    background-color:#00201f;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:15px;
+}
+a{
+    margin:15px;
+    padding:1.5vh;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-decoration:none;
+    background:black;
+    color:white;
+}
+

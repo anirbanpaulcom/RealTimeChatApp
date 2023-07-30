@@ -1,0 +1,17 @@
+.registerPage{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    background:black;
+    color:white;
+}
+.register{
+    height:7vh;
+}
+.inputBox{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
